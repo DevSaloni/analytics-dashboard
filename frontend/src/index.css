@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900;
+  }
+}
+
+select:focus {
+  outline: none !important;
+  box-shadow: 0 0 0 2px rgb(236 72 153 / 0.6) !important;
+  /* rani pink */
+  border-color: rgb(236 72 153) !important;
+}

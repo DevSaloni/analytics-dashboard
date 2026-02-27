@@ -66,16 +66,17 @@ const saleSchema = new mongoose.Schema({
 });
 
 module.exports = mongoose.model("Sale", saleSchema);
+```
 
 ---
 
-### 💻 Project Setup
+### Backend Setup
 
-## Backend Setup
 ```bash
 cd backend
 npm install
 npm start
+```
 
 ## 📝 Environment Variables (.env)
 
@@ -85,12 +86,12 @@ Create a `.env` file in the **backend** folder with the following variables:
 # MongoDB connection string
 MONGO_URI=your_mongodb_connection_string_here
 
-
 # Backend server port
 PORT=5000
 
 # JWT secret key
 JWT_SECRET=your_jwt_secret_here
+```
 
 ---
 
@@ -101,11 +102,11 @@ JWT_SECRET=your_jwt_secret_here
 cd frontend
 npm install
 npm run dev
+```
 
 ---
 
 ## 📸 Dashboard Screenshots
 
-![Dashboard Overview](./screenshots/dashboard-1.png) 
-![Dashboard Overview](./screenshots/dashboard-2.png)  
-
+![Dashboard Overview](./screenshots/dashboard-1.png)
+![Dashboard Overview](./screenshots/dashboard-2.png)

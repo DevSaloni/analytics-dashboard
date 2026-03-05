@@ -109,5 +109,5 @@ npm run dev
 
 ## 📸 Dashboard Screenshots
 
-![Dashboard Overview](./screenshots/dashboard-1.png)
-![Dashboard Overview](./screenshots/dashboard-2.png)
+![Dashboard Overview](./frontend/screenshots/dashboard-1.png)
+![Dashboard Overview](./frontend/screenshots/dashboard-2.png)
